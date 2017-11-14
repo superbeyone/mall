@@ -1,0 +1,2 @@
+#内容列表在redis中的缓存的key
+CONTENT_LIST=CONTENT_LIST
