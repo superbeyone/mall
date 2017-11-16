@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>e3-cart-interface</artifactId>
+  <dependencies>
+  	<dependency>
+	  	<groupId>com.superbeyone</groupId>
+	    <artifactId>e3-manager-pojo</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

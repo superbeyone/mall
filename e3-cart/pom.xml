@@ -5,12 +5,30 @@
     <artifactId>e3-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.superbeyone</groupId>
   <artifactId>e3-cart</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
   	<module>e3-cart-interface</module>
   	<module>e3-cart-service</module>
   </modules>
+  <dependencies>
+		<dependency>
+			<groupId>com.superbeyone</groupId>
+			<artifactId>e3-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<!--配置tomcat插件 -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<path>/</path>
+					<port>8089</port>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
