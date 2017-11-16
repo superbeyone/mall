@@ -10,7 +10,7 @@
   <dependencies>
 		<dependency>
 			<groupId>com.superbeyone</groupId>
-			<artifactId>e3-content-interface</artifactId>
+			<artifactId>e3-sso-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- Spring -->
