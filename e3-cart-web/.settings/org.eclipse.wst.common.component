@@ -16,6 +16,12 @@
         <dependent-module archiveName="fastdfs_client-1.25.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fastdfs_client/fastdfs_client">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="e3-sso-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/e3-sso-interface/e3-sso-interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="e3-manager-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/e3-manager-interface/e3-manager-interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="e3-cart-web"/>
         <property name="java-output-path" value="/e3-cart-web/target/classes"/>
     </wb-module>
