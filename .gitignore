@@ -3,3 +3,12 @@ ignore
 .metadada
 
 .recommenders
+*.dat
+*.tree
+.metadata/.plugins/org.eclipse.core.resources/.projects/e3-order/.syncinfo
+.metadata/.plugins/org.eclipse.core.resources/.projects/e3-order-interface/.syncinfo
+.metadata/.plugins/org.eclipse.core.resources/.projects/e3-order-service/.syncinfo
+.metadata/.plugins/org.eclipse.core.resources/.projects/e3-order-web/.syncinfo
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.egit.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.ui.prefs
